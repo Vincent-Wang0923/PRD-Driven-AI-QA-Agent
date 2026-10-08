@@ -1,0 +1,25 @@
+{
+  "prd_path": "docs/PRD_and_Requirements.md",
+  "frontend_dir": "auth-frontend",
+  "backend_dir": "auth-backend",
+  "database_path": "auth-backend/demo.db",
+  "frontend_url": "http://127.0.0.1:3000",
+  "backend_url": "http://localhost:5000",
+  "frontend_start_command": [
+    "node",
+    "node_modules/react-scripts/bin/react-scripts.js",
+    "start"
+  ],
+  "backend_start_command": [
+    "{python}",
+    "-m",
+    "flask",
+    "--app",
+    "app",
+    "run",
+    "--port",
+    "5000",
+    "--no-debugger",
+    "--no-reload"
+  ]
+}
